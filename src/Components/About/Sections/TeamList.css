@@ -1,0 +1,52 @@
+/* 
+.animationdiv{
+    background: #337ab7;
+  }
+  .hoveranimation{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+    opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  
+  }
+  .hoveranimation:hover,.hoveranimation:focus {
+   
+    -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    opacity: .1;
+    
+  } */
+
+  .alice-carousel__stage-item{
+    padding: 7px !important;
+  }
+  /* .main_div {
+    position: relative;
+  } */
+  
+  .image {
+    display: block;                 
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  /* .main_div:hover .overlay2,
+  .main_div:hover .overlay{
+    height: 100% !important;
+  }
+   */
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  

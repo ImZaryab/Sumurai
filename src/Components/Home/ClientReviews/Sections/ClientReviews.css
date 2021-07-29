@@ -1,0 +1,53 @@
+/* .client_area{
+    position: relative;
+
+}
+.owl_div{
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+}
+.ceeoo{
+    height: 500px;
+    width: 2234px !important;
+    background-color: yellow !important;
+}
+.react-multi-carousel-track{
+    width: 2728px !important;
+}
+.react-multi-carousel-item{
+    width: 311px !important;
+
+} */
+/* .abc{
+    min-height: 100px !important;
+    background-color: yellow !important;
+    margin-right: 1rem !important;
+    width: 311px !important;
+
+}
+.def{
+    min-height: 100px !important;
+    background-color: green !important;
+    margin-right: 1rem !important;
+    width: 311px !important;
+
+
+} */
+.client_text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: -webkit-fill-available;
+}
+.client_starts{
+    display: flex;
+    justify-content: flex-start;
+}
+.img-clas{
+    border-radius: 50% !important;
+}
+.react-multi-carousel-item{
+    width: 311px !important;
+}

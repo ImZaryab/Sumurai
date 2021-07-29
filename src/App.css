@@ -1,0 +1,281 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap"); */
+.App{
+  color: #2a354e !important;
+  font-family: 'Nunito', sans-serif;  
+  /* font-family: 'Rajdhani', sans-serif; */
+}
+
+.Home{
+  height: 740px;
+  background-image: url('./Images/bg.jpg');
+}
+
+
+.home_BG_Div{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.home_BG_Div img{
+  max-width: 100%;
+}
+.bg_projects{
+  height: 505px !important;
+}
+.bg_projects::after
+{
+  position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background: rgba(0,0,0,0.7);
+    z-index: 0;
+}
+.social_plus_info_each{
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.60px;
+  /* font-family: Rajdhani, serif; */
+
+}
+.social_plus_info_each_upwer{
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.60px;
+}
+.icon_Inner{
+  font-size: 13px;
+  color: #0c54ad !important;
+  padding-right: 9.9px;
+  height: 29px;
+    width: 29px;
+    opacity: 0.8;
+}
+.icon_Inner_circle{
+  font-size: 13px;
+  color: #0c54ad !important;
+  padding-right: 9.9px;
+  /* height: 29px;
+    width: 29px; */
+    opacity: 0.8;
+  
+}
+
+.icon_Inner svg{
+  height: 100%;
+  width: 100% !important;
+  font-size: 12px !important;
+}
+.icon_Inner_circle svg{
+  /* height: 100%; */
+  /* width: 100% !important; */
+  font-size: 16.2px !important;
+}
+.social_info{
+  
+  font-family: 'Nunito', sans-serif;  
+  /* color: #0004; */
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-55 {
+  width: 55% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-65 {
+  width: 65% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+v .w-80 {
+  width: 80% !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-95 {
+  width: 95% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+@media (min-width: 768px) { 
+  .w-md-10 {
+    width: 10% !important;
+  }
+  
+  .w-md-15 {
+    width: 15% !important;
+  }
+  
+  .w-md-20 {
+    width: 20% !important;
+  }
+  
+  .w-md-25 {
+    width: 25% !important;
+  }
+  
+  .w-md-30 {
+    width: 30% !important;
+  }
+  
+  .w-md-35 {
+    width: 35% !important;
+  }
+  
+  .w-md-40 {
+    width: 40% !important;
+  }
+  
+  .w-md-45 {
+    width: 45% !important;
+  }
+  .w-md-48{
+    width: 48% !important;
+  }
+  .w-md-49{
+    width: 49% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  
+  .w-md-55 {
+    width: 55% !important;
+  }
+  
+  .w-md-60 {
+    width: 60% !important;
+  }
+  
+  .w-md-65 {
+    width: 65% !important;
+  }
+  
+  .w-md-70 {
+    width: 70% !important;
+  }
+  
+  .w-md-75 {
+    width: 75% !important;
+  }
+  
+  .w-md-80 {
+    width: 80% !important;
+  }
+  
+  .w-md-85 {
+    width: 85% !important;
+  }
+  
+  .w-md-90 {
+    width: 90% !important;
+  }
+  
+  .w-md-95 {
+    width: 95% !important;
+  }
+  
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+}
+
+
+
+

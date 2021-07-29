@@ -1,0 +1,63 @@
+.suscribe-input{
+    color: #757b82 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    padding: 6px 15px !important;
+    height: 46px !important;
+    border-radius: 0 !important;
+    width: 64% !important;
+    float: left !important;
+    background: #fff !important;
+}
+.suscribe-input:focus{
+        outline: 0  !important;
+}
+.suscribe-button
+{
+    background: #0c54ad !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: 10px 5px !important;
+    width: 36% !important;
+    font-weight: 600 !important;
+    height: 46px !important;
+    border: 1px solid #0c54ad !important;
+    transition: 0.4s !important;
+}
+
+input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
+    -moz-appearance: none;
+    /* box-shadow: none !important; */
+}
+.list_link ul
+{
+    padding: 0 !important;
+    padding-left: 1rem !important;
+}
+.list_link ul li
+{
+    color: #757b82;
+    padding: 5px 0px 5px 22px !important;
+    /* display: block; */
+    position: relative;
+    font-weight: 400;
+}
+.footer_Social div{
+    padding: 5px 6px !important;
+    border-radius: 2.5px;
+    background:  #0c54ad;
+    color: white !important;
+    border: #0c54ad;
+    margin-right: 6.7px;
+    width: 29px;
+    align-items: center !important;
+    font-size: 12px !important;
+    text-align: center;
+
+}
+.footer_Social div:hover{    
+    background:  transparent;
+    border: 1px solid #0c54ad;
+    color: #0c54ad !important;
+}
