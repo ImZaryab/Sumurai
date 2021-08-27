@@ -1,13 +1,21 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo_N from "../../../../Images/PP.jpg";
 import ReviewCardTemplate from "../../../../pages/StyledComponent/ReviewCardTemplate";
+import SliderWrapper from "./Slider/SliderWrapper.js";
 
 export default () => {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
 
   const [clientReviews, setClientReviews] = useState([
@@ -79,8 +87,10 @@ const renderDATA = clientReviews.map((client)=>{
 
 
   return (
-    <Carousel infiniteLoop>
+    <SliderWrapper>
+      <Slider {...settings}>
       {renderDATA}
-    </Carousel>
+    </Slider>
+    </SliderWrapper>
   );
 };

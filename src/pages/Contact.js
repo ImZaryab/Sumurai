@@ -2,10 +2,8 @@ import React,{useState} from 'react'
 import Content from '../Components/Contacts/Content'
 import PageTemplateTop from '../Components/HOC/PageTemplateTop'
 import '../Components/Contacts/Sections/Contacts.css'
-import { faEnvelope, faEnvelopeOpenText, faLocationArrow, faMobileAlt, faSms } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText, faLocationArrow, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import BGContainer from './StyledComponent/BGContainer'
-import { faMailchimp } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons'
 import ContactMe from '../Components/Contacts/ContactMe'
 function Contact() {
 

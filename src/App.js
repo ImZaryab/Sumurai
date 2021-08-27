@@ -3,9 +3,7 @@ import './App.css';
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Work from './pages/Work'
-import Error from './pages/Error'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Route, Switch, Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 // import Footer from '../Components/Home/Footer/Footer';
 import Footer from './Components/Home/Footer/Footer';
 

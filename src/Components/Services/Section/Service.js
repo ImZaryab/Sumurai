@@ -7,7 +7,7 @@ function Service({data}) {
     return (
         < >
         
-            <ServiceIMGStyled marginBottom="17px"  src={w1} />
+            <ServiceIMGStyled marginBottom="17px" width={data.width} height={data.height} src={data.img} />
             <HeadingService marginBottom="16px">{data.heading}</HeadingService>
             <ParaStyled aboutsec='16px' marginBottom="17px">{data.para}</ParaStyled>
 

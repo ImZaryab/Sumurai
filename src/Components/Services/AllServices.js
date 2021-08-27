@@ -9,6 +9,13 @@ import SpanStyled from '../../pages/StyledComponent/SpanStyled'
 import '../Services/Service.css'
 
 
+import Web_design from '../../Images/Web_design.png'
+import Mobile_png from '../../Images/mobile_png.png'
+import data_science from '../../Images/data_science.png'
+import smart_contract from '../../Images/smart_contract.png'
+import machine_learning from '../../Images/machine_learning.png'
+import blockchain from '../../Images/blockchain.png'
+import hyperledger from '../../Images/hyperledger.png'
 // import w1 from '../../Images/w1.png'
 // import w2 from '../../../Images/w2.png'
 // import w3 from '../../../Images/w3.png'
@@ -23,53 +30,50 @@ function AllServices() {
         {
             heading:'Web Application',
             para:'Machine learning and deep learning find insights hidden in data without explicitly being told where to look or what to conclude. Our AI solutions include comprehensive, intuitive machine learning tools with automated feature engineering capabilities, resulting in better recommendations for faster, smarter decision making.',
-            img: "w1",
+            img: Web_design,
             bg:'light'
         },
         {
             heading:'Mobile Application',
             para:'Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.',
-            img: "w1",
+            img: Mobile_png,
+            width: '50px',
             bg:'white'
         },
         {
             heading:'Data Science',
             para:'Data science is a "concept to unify statistics, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" with data. It employs techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, and information science.',
-            img: "w1",
+            img: data_science,
+            width: '100px',
             bg:'light'
 
         },
         {
             heading:'Smart Contract',
             para:'A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network.',
-            img: "w1",
+            img: smart_contract,
             bg:'white'
 
         },
         {
             heading:'Machine Learning',
             para:'Machine learning and deep learning find insights hidden in data without explicitly being told where to look or what to conclude. Our AI solutions include comprehensive, intuitive machine learning tools with automated feature engineering capabilities, resulting in better recommendations for faster, smarter decision making.',
-            img: "w1",
+            img: machine_learning,
             bg:'light'
         },
         {
             heading:'Blockchain',
             para:'Blockchain is a shared, trusted, public ledger of transactions, that everyone can inspect but which no single user controls. It is a distributed database that maintains a continuously growing list of transaction data records, cryptographically secured from tampering and revision.',
-            img: "w1",
+            img: blockchain,
             bg:'white'
         },
         {
             heading:'Hyperledger',
             para:'Hyperledger is an open source community focused on developing a suite of stable frameworks, tools and libraries for enterprise-grade blockchain deployments. It is a global collaboration, hosted by The Linux Foundation, and includes leaders in finance, banking, Internet of Things, supply chains, manufacturing and Technology.',
-            img: "w1",
+            img: hyperledger,
             bg:'light'
         },
-        {
-            heading:'Blockchain',
-            para:'Blockchain is a shared, trusted, public ledger of transactions, that everyone can inspect but which no single user controls. It is a distributed database that maintains a continuously growing list of transaction data records, cryptographically secured from tampering and revision.',
-            img: "w1",
-            bg:'white'
-        },
+       
     ])
 
     const renderItem = allSerive.map((serviceInfo => {

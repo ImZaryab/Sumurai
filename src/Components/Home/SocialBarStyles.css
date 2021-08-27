@@ -1,0 +1,8 @@
+#socialBarIcons:hover{
+    cursor: pointer;
+    
+    filter: white; /* IE5+ */
+    -webkit-filter: brightness(150%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}

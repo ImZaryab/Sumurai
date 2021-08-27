@@ -1,9 +1,8 @@
 import React from 'react'
 import Heading2Styled from '../../pages/StyledComponent/Heading2Styled'
-import ParaStyled from '../../pages/StyledComponent/ParaStyled'
 
 function AcheivementSuccessNews({data}) {
-    console.log(data.heading);
+    //console.log(data.heading);
     return (
         <div className="row m-0 mb-4 mt-4 mt-md-5">
                     <div className='col-12'>

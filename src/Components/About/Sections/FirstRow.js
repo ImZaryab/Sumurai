@@ -1,9 +1,7 @@
 import React,{useState} from 'react'
-import DrawPics from './DrawPics'
 
 import ITEM from './ITEM'
 import { faLayerGroup, faShoppingCart, faUser  } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function FirstRow() {
 

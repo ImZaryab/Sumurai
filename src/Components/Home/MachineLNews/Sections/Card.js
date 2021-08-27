@@ -1,11 +1,10 @@
 import React from 'react'
-import mln1 from '../../../../Images/mln1.jpg'
 import {Image} from 'react-bootstrap'
 import Heading2Styled from '../../../../pages/StyledComponent/Heading2Styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt, faComment, faUser } from '@fortawesome/free-regular-svg-icons'
+import { faCalendarAlt, faComment } from '@fortawesome/free-regular-svg-icons'
 import ParaStyled from '../../../../pages/StyledComponent/ParaStyled'
-import { faCalendar, faUserAlt } from '@fortawesome/free-solid-svg-icons'
+import { faUserAlt } from '@fortawesome/free-solid-svg-icons'
 function Card({data}) {
     return (
         <>
@@ -43,7 +42,7 @@ function Card({data}) {
                             </div>
                         </div>
                         <div className='pr-2'>
-                            <Heading2Styled  fontSize="21px"  style={{lineHeight:'30px', fontWeight:'600', color:'#2a354e;', marginBottom:'6px'}}>
+                            <Heading2Styled  fontSize="21px"  style={{lineHeight:'30px', fontWeight:'600', color:'#2a354e', marginBottom:'6px'}}>
                                 {data.heading}
                             </Heading2Styled>
                         </div>

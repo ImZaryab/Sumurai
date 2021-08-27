@@ -1,5 +1,3 @@
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -9,7 +7,6 @@ import OCEAN from '../../../Images/OCEAN.png';
 import OMNISBIT from '../../../Images/OMNISBIT.png';
 import ALTRON from '../../../Images/ALTRON.png';
 import {Image} from 'react-bootstrap'
-import ReviewCardTemplate from '../../../pages/StyledComponent/ReviewCardTemplate';
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.

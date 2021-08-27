@@ -1,17 +1,13 @@
-import { text } from '@fortawesome/fontawesome-svg-core'
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import home_pic from '../../../Images/ab.png'
 import ButtonStyled from '../../../pages/StyledComponent/ButtonStyled'
 import Heading2Styled from '../../../pages/StyledComponent/Heading2Styled'
 import MachineLearningLI from '../../../pages/StyledComponent/MachineLearningLI'
-import ParaAfterStyled from '../../../pages/StyledComponent/ParaAfterStyled'
 import ParaStyled from '../../../pages/StyledComponent/ParaStyled'
-import SpanStyled from '../../../pages/StyledComponent/SpanStyled'
 function IMGSection({data, isBtn}) {
     // 
     const [textLI, setTextLI] = useState(['Smart AI based solutions','Blockchain based solutions','VOIP solutions','Mobile and web solutions']);
-    const [checkItem, setCheckItem] = useState('aboutSec')
+    //const [checkItem, setCheckItem] = useState('aboutSec')
     const rendeItem = textLI.map((text) => {
         return(                         
             <MachineLearningLI text={text} />

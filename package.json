@@ -28,6 +28,7 @@
     "react-owl-carousel": "^2.3.3",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
+    "react-script": "^2.0.5",
     "react-scripts": "4.0.3",
     "simple-slider": "^1.0.1",
     "styled-components": "^4.4.1",

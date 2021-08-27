@@ -2,7 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import DrawArea from '../../../pages/StyledComponent/DrawArea'
 import DrawPic from '../../../pages/StyledComponent/DrawPic'
-import { faShopify } from '@fortawesome/free-brands-svg-icons'
 
 
 function DrawPics({content,color, icon}) {

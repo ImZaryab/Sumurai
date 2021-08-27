@@ -10,7 +10,7 @@ function PageTemplateTop({heading}) {
     return (
             <PageStarter className='mb-0' bgProjects>
                 <div className="home_BG_Div bg_projects d-none d-md-block">
-                    <img src={logo} alt="bg image"/>
+                    <img src={logo} alt="background"/>
                 </div>
                 <div className='home-bg-div container bg-primary'>
                     <HeaderView/>

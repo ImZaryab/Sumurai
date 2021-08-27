@@ -7,12 +7,12 @@ function Project({data}) {
     return (
         <div className='col-12 col-md-4 mb-4'>
             <div className="d-flex flex-column">
-                <Image src={data.img} rounded />
+                <Image style={{ height: data.height, width: data.width }} src={data.img} rounded />
                 <Heading2Styled fontSize="24px" fontWeight="500" style={{marginBottom:'5px'}}>
                     {data.heading}
                 </Heading2Styled>
                 <ParaStyled MachineL='16px' >
-                    Our development opt in to the projects they genuinely want to work on, committing wholeheartedly to delivering.
+                    {data.text}
                 </ParaStyled>
             </div>
             

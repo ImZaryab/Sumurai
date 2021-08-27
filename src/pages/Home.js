@@ -1,11 +1,7 @@
 import React from 'react'
-import AboutSection from '../Components/About/AboutSection';
 import AboutTemplate from '../Components/HOC/AboutTemplate';
 import Achievement from '../Components/Home/Achievements/Achievement';
-import HeaderView from '../Components/Home/HeaderView'
 import HomeBody from '../Components/Home/HomeBody';
-import NavbarCustom from '../Components/Home/NavbarCustom';
-import TabArea from '../Components/Home/TabArea/TabArea';
 
 
 import AllServices from '../Components/Services/AllServices';
@@ -21,7 +17,7 @@ function Home() {
         
         <PageStarter className='Home mb-5' >
             <div className="home_BG_Div d-none d-md-block">
-                <img src={logo} alt="bg image"/>
+                <img src={logo} alt="background"/>
             </div>
             <div className='home-bg-div container'>
                 

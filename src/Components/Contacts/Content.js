@@ -1,7 +1,5 @@
-import { faMobile, faMobileAlt, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import BGContainer from '../../pages/StyledComponent/BGContainer'
 import Contact_Div from '../../pages/StyledComponent/Contact_Div'
 import ParaStyled from '../../pages/StyledComponent/ParaStyled'
 

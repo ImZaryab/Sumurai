@@ -1,11 +1,6 @@
 import React from 'react'
-import { Image } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import BGContainer from '../../pages/StyledComponent/BGContainer'
 import Heading2Styled from '../../pages/StyledComponent/Heading2Styled'
-import ParaStyled from '../../pages/StyledComponent/ParaStyled'
-import Contact_Div from '../../pages/StyledComponent/Contact_Div'
-import SpanStyled from '../../pages/StyledComponent/SpanStyled'
 
 function BreadCrumb_Cus({heading}) {
     return (

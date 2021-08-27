@@ -6,24 +6,39 @@ import 'react-multi-carousel/lib/styles.css';
 import logo_N from '../../../../Images/PP.jpg';
 
 import ReviewCardTemplate from '../../../../pages/StyledComponent/ReviewCardTemplate';
+
 const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
+        superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+        partialVisibilityGutter: 40,
+        slidesToSlide: 1
+      },
+        desktop: {
+          breakpoint: {
+            max: 3000,
+            min: 1024
+          },
+          items: 3,
+          partialVisibilityGutter: 40
+        },
+        mobile: {
+          breakpoint: {
+            max: 464,
+            min: 0
+          },
+          items: 1,
+          partialVisibilityGutter: 30
+        },
+        tablet: {
+          breakpoint: {
+            max: 1024,
+            min: 464
+          },
+          items: 2,
+          partialVisibilityGutter: 30
+        }
   };
 
   
@@ -70,7 +85,7 @@ function CardSlider() {
                 <ReviewCardTemplate height="232px"  padding="40px 30px" bg='#0c54ad' borderRadius='5px' marginBottom='3rem' >
                     <div className='client_text text-white'>
                         <div className="client_starts mb-2 ">
-                            <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px', textShadow:'0 0 3px #000;'}}/></div>
+                            <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px', textShadow:'0 0 3px #000'}}/></div>
                             <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px'}}/></div>
                             <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px'}}/></div>
                             <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px'}}/></div>
@@ -86,7 +101,7 @@ function CardSlider() {
             <div className='Info mb-5'>
                 <div className="d-flex ">
                     <div style={{borderRadius:'50%', marginRight:'1.6rem'}}>
-                        <img src={client.img} width="80px" className='img-clas'/>
+                        <img src={client.img} alt="" width="80px" className='img-clas'/>
                     </div>
                     <div className="d-flex flex-column my-auto ">
                         <h6 className='' style={{ fontWeight : '600', textTransform: 'uppercase',fontSize: '15px', margiBottom: '0px'}}>{client.name}</h6>
@@ -98,7 +113,7 @@ function CardSlider() {
         )
     })
     return (
-       <div className='col-12 col-md-7' style={{overflow:'hidden', position:'relative'}}>
+       <div className='col-12 col-md-7 pr-5' style={{overflow:'hidden', position:'relative'}}>
         <Carousel responsive={responsive} 
             swipeable={false}
             draggable={true}
@@ -106,14 +121,21 @@ function CardSlider() {
             responsive={responsive}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
-            autoPlay={true}
+            autoPlay={false}
             autoPlaySpeed={3000}
             keyBoardControl={true}
-            customTransition="all .5"
+            customTransition=""
             transitionDuration={500}
             containerClass="carousel-container"
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
+            sliderClass=""
+            slidesToSlide={1}
+            partialVisbile=""
+            focusOnSelect={false}
+            centerMode={true}
+            additionalTransfrom={-20 * 5}
+            
         >
             {renderDATA}
         </Carousel>

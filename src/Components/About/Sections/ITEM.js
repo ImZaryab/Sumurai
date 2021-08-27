@@ -1,9 +1,6 @@
 import React from 'react'
 import Heading2Styled from '../../../pages/StyledComponent/Heading2Styled'
 import ParaStyled from '../../../pages/StyledComponent/ParaStyled'
-import DrawArea from '../../../pages/StyledComponent/DrawArea'
-import DrawPic from '../../../pages/StyledComponent/DrawPic'
-import { faShopify } from '@fortawesome/free-brands-svg-icons'
 import DrawPics from './DrawPics'
 function ITEM({item}) {
     return (

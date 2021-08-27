@@ -18,20 +18,21 @@ const ButtonStyled = styled.button`
     letter-spacing: 1.08px !important;
     text-transform: capitalize;
     &:hover {
-        padding: ${props => props.learn? "8.7px 20px":"12.5px 20px"} !important;
-        border: 1px solid #0c54ad !important;
-        border: ${props => props.learn? props.border:"1px solid #0c54ad"} !important;
+        // padding: ${props => props.learn? "8.7px 20px":"12.5px 20px"} !important;
+        // border: 1px solid #0c54ad !important;
+        // border: ${props => props.learn? props.border:"1px solid #0c54ad"} !important;
         background:  #fff !important;
         color: #0c54ad !important;
-        color: ${props => props.learn? props.color:"#0c54ad"} !important;;
+        color: ${props => props.learn? props.color:"#0c54ad"} !important;
+        box-shadow: ${props => props.boxShadow? props.boxShadow : "0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%)"} !important;
 
-        transition: 0.4s;
+        /* transition: 0.4s;
         font-size: 15px;
         font-weight: 600;
         border-radius: 2px;
         letter-spacing: 1.08px !important;
         text-transform: capitalize;
-        outline:none !important;
+        outline:none !important; */
     }
 `
 export default ButtonStyled;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Project from './Sections/Project'
 
 import BGContainer from '../../pages/StyledComponent/BGContainer'

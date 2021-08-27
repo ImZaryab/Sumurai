@@ -13,7 +13,7 @@ import OverlayStyled from "./OverlayStyled";
 import MainDivStyled from './MainDivStyled';
 import ParaStyled from '../../../pages/StyledComponent/ParaStyled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 // import DP7 from '../../../Images/DP7.jpg'
 // import DP8 from '../../../Images/DP8.jpg'

@@ -4,8 +4,6 @@ import acheiv1 from '../../Images/achive1.png'
 import acheiv2 from '../../Images/achive2.png'
 import acheiv3 from '../../Images/achive3.png'
 import SpanStyled from '../../pages/StyledComponent/SpanStyled'
-import ParaStyled from '../../pages/StyledComponent/ParaStyled'
-import Heading2Styled from '../../pages/StyledComponent/Heading2Styled'
 import AcheivementText from '../../pages/StyledComponent/AcheivementText'
 function Achievement_box() {
     const [acheivementData, setAcheivementData] = useState([{
@@ -27,7 +25,7 @@ function Achievement_box() {
             <div className="col-12 col-md-4 m-auto">
                 <AchievementBox_Styled>     
                     <div className='w-40'>
-                        <img src={list.img} style={{width:'100%'}}></img>
+                        <img src={list.img} alt="" style={{width:'100%'}}></img>
                     </div>
                     <div className='d-flex flex-column w-60'>
                         <SpanStyled fontSize="44px" weight="600" Lh='60px'>

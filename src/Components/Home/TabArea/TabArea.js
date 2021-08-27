@@ -37,7 +37,7 @@ function TabArea() {
                 <Tabs defaultActiveKey="blockChain" id="uncontrolled-tab-example" className="w-100 d-flex flex-column flex-md-row " style={{border:'none'}}>
                     <Tab eventKey="blockChain" className="w-100" title={
                     <div className="d-flex flex-row title_style" >
-                        <img src={w3} className="tab_img" />
+                        <img src={w3} alt="" className="tab_img" />
                         <span class='tab_span_text'>blockChain</span>
                     </div>
                     }   >
@@ -47,7 +47,7 @@ function TabArea() {
                     
                     <Tab eventKey="artificial" className="w-100" title={
                    <div className="d-flex flex-row title_style" >
-                   <img src={w3} className="tab_img" />
+                   <img src={w3} alt="" className="tab_img" />
                         <span class='tab_span_text'>Artificial & Intelligence</span>
                     </div>
                     }   >
@@ -56,7 +56,7 @@ function TabArea() {
 
                     <Tab eventKey="NLP" className="w-100" title={
                     <div className="d-flex flex-row title_style" >
-                    <img src={w3} className="tab_img" />
+                    <img src={w3} alt="" className="tab_img" />
                         <span class='tab_span_text'>NLP</span>
                     </div>      
                     }   >
@@ -65,7 +65,7 @@ function TabArea() {
 
                     <Tab eventKey="MobileAndweb" className="w-100" title={
                     <div className="d-flex flex-row title_style" >
-                    <img src={w3} className="tab_img" />
+                    <img src={w3} alt="" className="tab_img" />
                         <span class='tab_span_text'>Mobile And Web Development</span>
                     </div>
                     }   >

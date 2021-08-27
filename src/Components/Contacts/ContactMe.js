@@ -14,7 +14,7 @@ const schema = yup.object().shape({
 
 
 function ContactMe() {
-    const { register, handleSubmit, control, errors } = useForm({
+    const { register, handleSubmit, errors } = useForm({
         resolver: yupResolver(schema),
       });
     
@@ -69,8 +69,8 @@ function ContactMe() {
                                 name="emailBody" 
                                 rows="6"
                                 ref={register}
+                                placeholder="Message Body"
                             >
-                                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
                             </textarea>
                             <p> {errors.emailBody?.message} </p>
                         </div>

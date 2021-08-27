@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faSkype,  faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhoneSquareAlt  } from '@fortawesome/free-solid-svg-icons'
 import { faClock  } from '@fortawesome/free-regular-svg-icons'
+import "./SocialBarStyles.css"
 
 import IconsStyled from '../../pages/StyledComponent/IconsStyled'
 
@@ -28,10 +29,12 @@ function SocailBar() {
 
     const renSocialIcons = SocialIcons.map(function(data, idx) {
         return (
-            <div className="d-flex flex-row mr-2 my-auto">  
+            <div className="d-flex flex-row mr-2 my-auto" id="socialBarIcons">
+                <a href="https://www.google.com" target="_blank">
                 <IconsStyled className="icon_Inner d-flex flex-row ">
-                    <FontAwesomeIcon icon={data} />
+                    <FontAwesomeIcon icon={data}/>
                 </IconsStyled>
+                </a>
             </div>
 )
     });

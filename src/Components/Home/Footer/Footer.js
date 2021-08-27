@@ -1,14 +1,13 @@
 import React from 'react'
 import BGContainer from '../../../pages/StyledComponent/BGContainer'
-import logo from '../../../Images/WebsiteLogo.png'
-import footerBG from '../../../Images/footerBG.jpg'
+import logo from '../../../Images/WebsiteLogoResized.png'
 import './Section/Footer.css'
 import {Image} from 'react-bootstrap'
 import ParaStyled from '../../../pages/StyledComponent/ParaStyled'
 import FooterHeading from '../../../pages/StyledComponent/FooterHeading'
 import FooterSpam from '../../../pages/StyledComponent/FooterSpam'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faFacebookF, faGoogle, faInstagram, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faGoogle, faInstagram, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons'
 function Footer() {
     return (
         <BGContainer>
@@ -17,7 +16,7 @@ function Footer() {
                     <div className='col-12 col-md-5'>
                             <div className='d-flex flex-column'>
                                 <div>
-                                    <Image src={logo} width='45%' style={{marginTop:'-2.7rem'}} />
+                                    <Image src={logo} width='40%' style={{marginTop:'-2.7rem'}} />
                                 </div>
                                 <div>
                                     <ParaStyled MachineL="16.2px" lineHeight='29px'>
