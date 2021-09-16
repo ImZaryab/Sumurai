@@ -52,7 +52,7 @@ function SocailBar() {
         )
     });
     return (
-        <div className="social_navbar_area">
+        <div className="social_navbar_area mx-4">
             <div className="socail_row row  py-2 "> 
                 <div className="col-12 col-md-7  my-auto p-0 d-none d-md-block">
                     <div className="d-flex justify-content-start flex-row social_plus_info_each_upwer">

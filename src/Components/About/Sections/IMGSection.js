@@ -6,9 +6,9 @@ import MachineLearningLI from '../../../pages/StyledComponent/MachineLearningLI'
 import ParaStyled from '../../../pages/StyledComponent/ParaStyled'
 function IMGSection({data, isBtn}) {
     // 
-    const [textLI, setTextLI] = useState(['Smart AI based solutions','Blockchain based solutions','VOIP solutions','Mobile and web solutions']);
+    const [textLI, setTextLI] = useState(['Blockchain based enterprise solutions','Crypto currencies development','NFT marketplace','Blockchain and AI solutions']);
     //const [checkItem, setCheckItem] = useState('aboutSec')
-    const rendeItem = textLI.map((text) => {
+    const rendeItem = data.bulletsData.map((text) => {
         return(                         
             <MachineLearningLI text={text} />
         );

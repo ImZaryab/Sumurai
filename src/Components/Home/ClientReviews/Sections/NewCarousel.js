@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import Slider from "react-slick"
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo_N from "../../../../Images/PP.jpg";
@@ -9,13 +9,37 @@ import ReviewCardTemplate from "../../../../pages/StyledComponent/ReviewCardTemp
 import SliderWrapper from "./Slider/SliderWrapper.js";
 
 export default () => {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+    var settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
 
 
   const [clientReviews, setClientReviews] = useState([
@@ -52,9 +76,9 @@ export default () => {
 ])
 const renderDATA = clientReviews.map((client)=>{
    return(
-   <div className='mr-3' style={{position:'relative'}} >    
+   <div className='' style={{position:'relative'}} >    
         <ReviewCardTemplate  className='MainDivClient'>
-            <ReviewCardTemplate height="232px" width="500px" padding="40px 30px" bg='#0c54ad' borderRadius='5px' marginBottom='3rem' marginRight="1rem" marginLeft="3.5rem" >
+            <div className="testimonials__container">
                 <div className='client_text text-white'>
                     <div className="client_starts mb-2 ">
                         <div className='mr-2'><FontAwesomeIcon icon={faStar} style={{color:"#fec731",fontSize: '20px', textShadow:'0 0 3px #000'}}/></div>
@@ -67,7 +91,7 @@ const renderDATA = clientReviews.map((client)=>{
                         {client.text}
                     </p>
                 </div>
-            </ReviewCardTemplate>
+            </div>
 
         </ReviewCardTemplate>
         <div className='Info mb-5'>

@@ -117,7 +117,7 @@ function Projects() {
             width: '280px',
             height: '225px',
             heading:'StonAI',
-            text:'*Yet To Be Added*'
+            text:'In the construction industry, a contractor and client has to deal with many document having hundreds of pages. This makes the life difficult for the manager to resolve conflicts or handle day to day activities. Therefore, this project focuses on extracting key knowledge from the contracts, meetings, and other formal documents. The system allows user to store, search, and produce documents using machine / deep learning. The system has automated so many processes that it reduces almost 50% activities of the construction company and client.'
         },
     ]);
     const [nlpprojects, setNlpprojects] = useState([
@@ -140,7 +140,7 @@ function Projects() {
             width: '280px',
             height: '225px',
             heading:'StonAI',
-            text:'*Yet To Be Added*'
+            text:'In the construction industry, a contractor and client has to deal with many document having hundreds of pages. This makes the life difficult for the manager to resolve conflicts or handle day to day activities. Therefore, this project focuses on extracting key knowledge from the contracts, meetings, and other formal documents. The system allows user to store, search, and produce documents using machine / deep learning. The system has automated so many processes that it reduces almost 50% activities of the construction company and client.'
         },
         {
             img: img4,

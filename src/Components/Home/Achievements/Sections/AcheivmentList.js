@@ -50,7 +50,7 @@ function AcheivmentList() {
         );
     })
     return (
-        <div className="w-100 d-flex flex-column flex-md-row">
+        <div className="w-100 d-flex flex-column flex-md-col">
             {rendenListAcheivement}
         </div>
     )

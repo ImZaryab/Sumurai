@@ -13,10 +13,17 @@ const Heading2Styled = styled.h2`
     max-width: 100%;
     margin-bottom: ${props => props.marginBottom ? props.marginBottom : "20px"};
     @media (max-width: 768px) {
+      color: ${props => props.color ? props.color : "#2a354e"};
         font-size: ${props => props.fontSize ? props.fontSize : "30px"};
         font-weight: ${props => props.aboutsec ? "600" : "600"};
         line-height: ${props => props.aboutsec ? "30px" : "40px"};
-        margin-bottom: 20px;
       }
+    @media (min-width: 769px) and (max-width: 974px) {
+      font-weight: 800 !important;
+      color: ${props => props.rColor ? props.rColor : "#fff"} !important;
+    }
+    @media (min-width: 975px) {
+      color: ${props => props.color ? props.color : "#fff"};
+    }
 `
 export default Heading2Styled;

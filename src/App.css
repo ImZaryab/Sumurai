@@ -48,6 +48,9 @@
   background-image: url('./Images/bg.jpg');
 }
 
+.header_bg_container{
+  height: 50vh;
+}
 
 .home_BG_Div{
   width: 100%;
@@ -56,21 +59,28 @@
 }
 .home_BG_Div img{
   max-width: 100%;
+  height: auto;
 }
 .bg_projects{
   height: 505px !important;
 }
-.bg_projects::after
+
+.bg_img{
+    filter: grayscale(1) saturate(5) brightness(0.5) hue-rotate(
+      135deg);
+}
+
+/* .bg_projects::after
 {
   position: absolute;
     content: "";
     left: 0;
     top: 0;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background: rgba(0,0,0,0.7);
     z-index: 0;
-}
+} */
 .social_plus_info_each{
   text-decoration: none;
   font-size: 14px;

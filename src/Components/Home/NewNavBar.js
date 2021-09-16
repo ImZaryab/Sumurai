@@ -17,7 +17,7 @@ export default class NavbarCustom extends Component {
     }
     render() {
         return (
-            <div className="Navbar_row row  py-2 mb-5 w-100 ml-2">
+            <div className="Navbar_row row">
                 <div className={`${this.props.starter ? 'navbar_c navlist_custom_styling py-5' : 'navbar_c'}`}>
                     <div className="nav-header">
                         <Link to="/">
@@ -66,8 +66,8 @@ export default class NavbarCustom extends Component {
                             </Link>
                         </li>
                     </ul>
-                    <div id="get_in_touch_btn" className="d-none d-md-block nav-btn my-auto">
-                        <ButtonStyled  className='btn  py-2 px-4 text-white'>Get in touch</ButtonStyled>
+                    <div className="d-none d-md-block nav-btn">
+                        <ButtonStyled  className='btn nav_blue_btn py-2 px-4 text-white'>Get in touch</ButtonStyled>
                     </div>
                 </div>
             

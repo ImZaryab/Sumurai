@@ -6,14 +6,15 @@ import SpanStyled from '../../pages/StyledComponent/SpanStyled'
 import ParaStyled from '../../pages/StyledComponent/ParaStyled'
 import HeaderView from './HeaderView'
 import NavbarCustom from './NavbarCustom'
+import NewNavBar from './NewNavBar'
 function HomeBody() {
     return (
         <>
         
-        <div id="homeBody" className="Home_body container p-0">
-            <div className='px-3'>
+        <div  className="container p-0">
+            <div className=''>
                 <HeaderView/>
-                <NavbarCustom/>
+                <NewNavBar/>
             </div>
             <div className="row w-100 p-0 mx-auto">
                 <div className="col-10 mx-auto col-md-6 p-0">
@@ -21,7 +22,7 @@ function HomeBody() {
                         <div className="d-flex flex-column pt-md-5">
                             <div>
                                 
-                                <Heading2Styled className=''>
+                                <Heading2Styled rColor="#2a354e" color="#2a354e" style={{ marginTop: '2rem'}} className=''>
                                     Build an application powered by <SpanStyled > Machine Learning and Blockchain. </SpanStyled> 
                                 </Heading2Styled>
                             </div>
